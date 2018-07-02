@@ -165,7 +165,7 @@
     group: root
     mode: 0775
   with_items:
-    - entrypoint.sh
+    - nginx-entrypoint.sh
     
 - name: Clean yum cache
   command: yum clean all
